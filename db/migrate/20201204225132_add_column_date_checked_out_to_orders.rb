@@ -1,0 +1,7 @@
+class AddColumnDateCheckedOutToOrders < ActiveRecord::Migration[5.2]
+  def change
+    add_column :orders, :created_at, :datetime, null: false 
+    add_column :orders, :updated_at, :datetime, null: false 
+    add_column :orders, :checked_out, :boolean 
+  end
+end
