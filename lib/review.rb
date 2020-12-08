@@ -1,7 +1,8 @@
-class Review < ActiveRecord::Base 
-
-    belongs_to :user 
-    belongs_to :beer 
-
-    
-end 
+class Review < ActiveRecord::Base
+ 
+    belongs_to :user
+    belongs_to :beer
+  
+   
+ end
+ 
